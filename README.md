@@ -1,25 +1,27 @@
-# React User Management App
+# User Management App
 
-This is a **React-based application** that displays user data in cards, supports dynamic routing to display detailed user information, provides filtering functionality on name and email, and ensures responsiveness across all devices. The app also integrates **Formik** for form validation.
+A React-based application that displays user data in responsive cards, supports filtering by name and email, and includes dynamic routing for detailed user pages. This project uses the JSONPlaceholder API as a data source.
 
----
-
-## 🚀 Features
-- **Display User Data**: Shows user information in cards with a clean UI.
-- **Dynamic Routing**: Navigate to detailed user pages using React Router.
-- **Search & Filter**: Filter users by their name or email.
-- **Form Validation**: User-friendly form validation powered by **Formik**.
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
-
----
-
-## 🛠️ Technologies Used
-- **React**: For building the UI.
-- **Tailwind CSS**: For responsive and modern styling.
-- **React Router**: For dynamic navigation.
+## 🛠️ **Technologies Used**
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling and responsiveness.
+- **React Router**: For navigation and dynamic routing.
 - **Redux Toolkit**: For state management.
-- **Formik**: For easy and scalable form validation.
+- **Formik**: For form validation.
 
----
+## ✨ **Features**
+1. **Display User Data**:  
+   - Fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+   - Displays data in a card layout.
 
+2. **Dynamic Routing**:  
+   - Navigate to a detailed page for each user using React Router.
 
+3. **Filtering**:  
+   - Filter users by name or email.
+
+4. **Form Validation**:  
+   - Uses Formik for handling and validating forms.
+
+5. **Responsive Design**:  
+   - Fully responsive layout for all devices.
